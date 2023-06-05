@@ -1,0 +1,151 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1d3557;
+    color: #fff;
+  }
+  
+  header img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  
+  
+  
+  /* Navigation */
+  
+  /* Navigation */
+
+  nav {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #1a1c1d;
+    padding: 0px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; 
+    flex-grow: 1; 
+    text-align: center; 
+  }
+  
+  nav .selected {
+    background-color: #b38c5a;
+  }
+  
+  
+  nav a:hover {
+    background-color: #a8dadc;
+  }
+  
+  
+  nav .selected a {
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 0;
+  }
+  
+  
+  /* Main Content */
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    margin-top: -20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #1d3557;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card li {
+    margin-bottom: 10px;
+  }
+
+  main h2 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  main a {
+    text-align: left;
+    margin-top: -40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  
+  /* Footer */
+  
+  footer {
+    background-color: #1d3557;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      margin-bottom: 20px; 
+    }
+  }
+  
+  
+  
+  
