@@ -98,15 +98,18 @@
   .card {
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .card h3 {
-    color: #1d3557;
-    margin-top: 0;
+    color: #fff;
+    background-color: #1d3557;
+    margin-top: 0px;
     margin-bottom: 20px;
+    padding: 10px;
   }
+  .card h2
   
   .card ul {
     list-style: none;
