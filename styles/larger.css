@@ -1,0 +1,28 @@
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+    main h2 {
+        text-align: center;
+    }
+    nav .selected {
+        grid-column-start: 0;
+        grid-column-end: 2;
+        padding-left:  450px;
+        padding-right: 450px;
+    }
+    nav {
+        margin: 0 auto;
+        display:grid;
+        justify-content: center;
+        
+    }
+    .card {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      margin-bottom: 20px; 
+    }
+  }

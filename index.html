@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cameron Pedro">
     <meta name="description" content="course assignment portal. wdd230 github personal class site.">
@@ -30,11 +31,12 @@
             
             <h3>Learning Activities</h3>
             <ul>
-                <li><a>TBD</a></li>
-                <li><a>TBD</a></li>
-                <li><a>TBD</a></li>
-                <li><a>TBD</a></li>
-                <li><a>TBD</a></li>
+                <li><a>Week 01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></a></li>
+                <li><a>Week 02:</a></li>
+                <li><a>Week 03:</a></li>
+                <li><a>Week 04:</a></li>
+                <li><a>Week 05:</a></li>
+                <li><a>Week 06:</a></li>
             </ul>
         </section>
 
@@ -48,9 +50,12 @@
     </main>
     
     <footer>
-        <p>copyright year, Cameron Pedro, CA - USA</p>
-        <p id="lastModified"></p>
+        <div class="centered">
+            <p class="currentYear" id="currentYear"></p>
+            <p class="modifier">🔱 Cameron Pedro 🔱California, USA</p>
+          </div>
+        <p id="lastModified" class="jsScript">Last Modified: </p>
     </footer>
-
+    <script src="javascript/getDates.js"></script>
 </body>
 </html>
