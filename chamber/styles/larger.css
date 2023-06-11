@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+    header {
+        height: 40px;
+    }
     .hamburger-menu {
         display: none;
     }
@@ -6,12 +9,15 @@
     nav ul.menu {
         display: flex;
         justify-content: space-between;
-        
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
     }
   
     nav ul.menu li {
         display: inline-block;
-        margin: 10px;
+        margin: 10px 30px;
     }
   
     nav ul.menu li a {
@@ -19,4 +25,20 @@
         padding: 10px;
         text-decoration: none;
     }
+    
+    .container {
+        display: grid;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .current-events {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 175px;
+      }
+      .weather-card {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        height: 175px;
+      }
 }
