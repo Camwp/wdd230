@@ -21,9 +21,9 @@
     }
   
     nav ul.menu li a {
-        color: #b92c2c;
         padding: 10px;
         text-decoration: none;
+        font-size: 28px;
     }
     
     .container {
@@ -31,14 +31,25 @@
         align-items: center;
         justify-content: space-evenly;
       }
-      .current-events {
+    .current-events {
         grid-column-start: 1;
         grid-column-end: 3;
         height: 175px;
       }
-      .weather-card {
+    .weather-card {
         grid-column-start: 3;
         grid-column-end: 5;
         height: 175px;
+      }
+    .hero .btn {
+        font-size: 25px;
+      }
+    .hero-text {
+        text-align: center;
+        color: #37505C;
+        padding: 10px 20px;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 50px 150px;
       }
 }
