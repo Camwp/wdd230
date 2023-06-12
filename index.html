@@ -3,33 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--Social tags-->
+    <meta property="og:title" content="Cameron Pedro - WDD 230 - Web Frontend Development">
+    <meta property="og:description" content="course assignment portal. wdd230 github personal class site.">
+    <meta property="og:image" content="images/StokeSociety.png">
+    <meta property="og:url" content="https://camwp.github.io/wdd230">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cameron Pedro - WDD 230 - Web Frontend Development">
+    <meta name="twitter:description" content="course assignment portal. wdd230 github personal class site.">
+    <meta name="twitter:image" content="images/StokeSociety.png">
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cameron Pedro">
     <meta name="description" content="course assignment portal. wdd230 github personal class site.">
     <title>Cameron Pedro - WDD 230 - Web Frontend Development</title>
 </head>
 <body>
-    
+    <div class="note-bar">
+        <div id="mode">
+            ☑️
+        </div>
+    </div>
     <header>
         <img src="images/me.jpg" alt="Me">
         <h1>Cameron Pedro</h1>
-    </header>
-    
-    <nav>
-        <a name="Home" class="selected" href="#">Home</a>
-        <a name="Chamber" href="/chamber">Chamber</a>
-        <a name="Site Plan" href="#">Site Plan</a>
-        <a name="Form" href="#">Form</a>
-    </nav>
+        
+      </header>
+      <div class="container">
+  <button id="toggleButton" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
+</button>
+
+      <nav id="navElement" class="hidden">
+        
+          <a name="Home" class="selected" href="#">Home</a>
+          <a name="Chamber" href="/chamber">Chamber</a>
+          <a name="Site Plan" href="#">Site Plan</a>
+          <a name="Form" href="#">Form</a>
+        
+      </nav>
     
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <a><hr></a>
-        <section class="card">
+        <section class="card" id="card">
             
-            <h3>Learning Activities</h3>
+            <h3 id="headerThree">Learning Activities</h3>
             <ul>
                 <li><a>Week 01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></a></li>
                 <li><a>Week 02:</a></li>
@@ -41,7 +67,7 @@
         </section>
 
         <section class="card" id="information">
-            <h3>Information</h3>
+            <h3 id="header">Information</h3>
             <ul>
                 <li><a>Sacramento, California</a></li>
                 <li><a>Weather: -</a></li>
@@ -58,5 +84,7 @@
         <p id="lastModified" class="jsScript">Last Modified: </p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/mode.js"></script>
 </body>
 </html>
