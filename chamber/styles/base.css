@@ -1,5 +1,7 @@
 /* Normalize or Reset CSS */
-/* Include your normalize or reset CSS code here */
+* {
+  box-sizing: border-box;
+}
 
 /* General Styling */
 body {
