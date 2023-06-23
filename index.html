@@ -31,7 +31,7 @@
         </div>
     </div>
     <header>
-        <img src="images/me.jpg" alt="Me">
+        <img src="images/me.webp" alt="Me">
         <h1>Cameron Pedro</h1>
         
       </header>
@@ -50,7 +50,16 @@
           <a name="Form" href="#">Form</a>
         
       </nav>
-    
+      <div class="temple-container">
+        <picture class="temple">
+          <source srcset="images/sactemple.webp" media="(max-width: 400px)">
+          <source srcset="images/sactemple.webp" media="(max-width: 960px)">
+          <img src="images/sactemple.webp" alt="Sacramento Temple - Sacramento, CA">
+        </picture>
+        <div class="herolabel">
+          <p>Sacramento Temple</p>
+        </div>
+      </div>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <a><hr></a>
@@ -72,9 +81,11 @@
             <ul>
                 <li><a>Sacramento, California</a></li>
                 <li><a>Weather: -</a></li>
-                <li><a>Unique Visits: -</a></li>
+                <li><a class="label">Page Visits: </a><span class="visits"></span></a></li>
             </ul>
         </section>
+        <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49742.321832747555!2d-121.28635592768848!3d38.811956496923706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1f47fda0e3b5%3A0x45b31f477d8d2144!2sRocklin%2C%20CA!5e0!3m2!1sen!2sus!4v1687487774803!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </main>
     
     <footer>
@@ -87,5 +98,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/mode.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>
