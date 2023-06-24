@@ -121,7 +121,26 @@ body {
     margin-bottom: 20px;
   }
   
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  figure {
+    margin-bottom: 30px;
+    text-align: center;
+  }
   
+  .image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+  }
 
   .current-events {
 
@@ -166,7 +185,12 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
+  .container {
+    display: grid;
+    grid-template-areas: 
+      "sidebar"
+      "main";
+  }
   /* Footer */
   footer {
     background-color: #37505C;
