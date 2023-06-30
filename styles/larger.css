@@ -4,8 +4,13 @@
     main {
       display: flex;
       flex-direction: column;
+      padding: 0;
     }
-  
+    .temple img {
+      position: relative;
+      width: 80%;
+      height: 400px; /* Adjust the height as needed */
+    }
     .card {
       grid-column-start: unset;
       grid-column-end: unset;
@@ -26,11 +31,7 @@
         justify-content: center;
         overflow: hidden;  
     }
-    .card {
-      grid-column-start: unset;
-      grid-column-end: unset;
-      margin-bottom: 20px; 
-    }
+
     .hidden {
       display: none;
     }

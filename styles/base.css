@@ -89,34 +89,32 @@ body {
     display: flex;
     justify-content: center;
   }
-
+  
   .temple img {
-    max-width: 100%;
+    width: 700px;
     height: auto;
+  }
+  
+  .temple-container {
+    position: relative;
+    width: 100vw;
+    height: 400px; /* Adjust the height as needed */
   }
   .herolabel {
     position: absolute;
-    top: 40px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-180%);
-    background: radial-gradient(#fff, #4D5B97);
-    border: 1px solid rgba(0,0,0,.75);
-    padding: 1.5rem;
-    box-shadow: 0 0 3rem #fff;
-    opacity: 0.75;    
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
   }
-  .temple-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
+  
   .herolabel p {
     margin: 0;
-    padding: .25rem;
-    font-weight: 700;
-    font-size: 2rem;
-    font-family:"Great Vibes", serif;
   }
   main {
     display: grid;
@@ -140,7 +138,10 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
   }
-  
+  .myform {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
   .card ul {
     list-style: none;
     padding: 0;
