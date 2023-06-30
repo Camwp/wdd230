@@ -97,8 +97,9 @@ body {
   
   .temple-container {
     position: relative;
-    width: 100vw;
-    height: 400px; /* Adjust the height as needed */
+    grid-column-start: auto;
+    grid-column-end: span 2;
+    height: auto /* Adjust the height as needed */
   }
   .herolabel {
     position: absolute;
@@ -131,8 +132,14 @@ body {
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
-  
+  .divider {
+    margin-top: -35px;
+    padding: 20px 0;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
   .card h3 {
     color: #1d3557;
     margin-top: 0;
@@ -153,21 +160,18 @@ body {
 
   main h2 {
     text-align: left;
-    grid-column-start: 1;
-    grid-column-end: 3;
   }
+
   main a {
     text-align: left;
     margin-top: -40px;
-    grid-column-start: 1;
-    grid-column-end: 3;
   }
 
   .iframe-container {
     display: flex;
     justify-content: center;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: span 2;
   }
 
   .iframe-container iframe {
