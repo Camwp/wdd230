@@ -167,6 +167,10 @@ form {
     width: 50%;
     margin: 0 auto;
 }
+.join-container {
+  display: grid;
+  justify-content: center;
+}
 
 label {
     display: block;
@@ -197,9 +201,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+.form-container {
+  grid-row: 1;
+}
 .benefits {
   width: 50%;
   margin: 0 auto;
+  grid-row: 2;
 }
 
 .benefits h2 {

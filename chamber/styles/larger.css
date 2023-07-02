@@ -42,6 +42,20 @@
       grid-column-end: span 1; 
      }
     
+     .join-container {
+      display:flex;
+      justify-content:center;
+    }
+    .form-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+     .benefits {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
     .main-content {
       background-color: #ffffff;
       padding: 20px;
