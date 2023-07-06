@@ -4,14 +4,36 @@
         "week": "Week 1",
         "links": [
           {
-            "url":"week01/holygrail.html",
-            "title":"HG Layout"
+            "url": "#",
+            "title": "Layout"
           },
           {
-            "url":"week01/media-query.html",
-            "title":"mQueries"
+            "url": "#",
+            "title": "Media Query"
+          },
+          {
+            "url": "#",
+            "title": "JS Pen"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/Cameron-Pedro/pen/bGQVGRe",
+            "title": "Codepen"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "JS DOM"
           }
         ]
       }
     ]
-}
+  }
+  
