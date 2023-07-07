@@ -1,5 +1,5 @@
 // Sample JSON data
-const companies = "https://camwp.io/wdd230/chamber/members.json";
+const companies = "https://camwp.github.io/wdd230/chamber/members.json";
   
   // Function to create a company card
   function createCompanyCard(company) {
