@@ -38,7 +38,7 @@
         "week": "Week 3",
         "links": [
           {
-            "url": "week03/images/landscape.webp",
+            "url": "/week03/images/landscape.webp",
             "title": "WebP",
             "target": "_blank"
           },
