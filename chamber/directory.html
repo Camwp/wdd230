@@ -2,9 +2,18 @@
 <html>
 <head>
   <title>Onewheel Companies</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
+    <div class="view-toggle">
+        <label for="view-type">View:</label>
+        <select id="view-type">
+          <option value="list">List</option>
+          <option value="gridC">Grid</option>
+        </select>
+      </div>
+
   <div id="company-cards"></div>
 
   <script src="scripts/members.js"></script>

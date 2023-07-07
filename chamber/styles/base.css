@@ -273,3 +273,52 @@ input[type="submit"]:hover {
     text-align: center;
   }
   
+  /* Directory */
+  #company-cards section {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ced2d4;
+    
+  }
+  
+  #company-cards h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  #company-cards p {
+    margin-bottom: 4px;
+  }
+  
+  #company-cards img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  #company-cards.gridC {
+    display: grid;
+    width: calc(100%);
+    margin-right: 16px;
+    vertical-align: top;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  #company-cards.gridC section {
+    grid-column-end: auto;
+}
+
+  #company-cards.list {
+    width: 100%;
+  }
+
+  .view-toggle {
+    margin-bottom: 16px;
+  }
+  
+  .view-toggle label {
+    margin-right: 8px;
+  }
