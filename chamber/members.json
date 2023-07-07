@@ -13,7 +13,7 @@
       "address": "456 Elm Avenue, Los Angeles, CA 90001",
       "phone": "+1 (987) 654-3210",
       "website": "https://www.floatlife.com",
-      "image": "https://example.com/float_life_logo.png",
+      "image": "https://thefloatlife.com/cdn/shop/files/Cursive_Float_Tiff_Drop_Shadow_150x@2x.png?v=1614327048",
       "membership_level": "Standard",
       "other_information": "Float Life specializes in high-quality Onewheel accessories, including fenders, bumpers, and custom grip tape. They are known for their innovative designs and durability."
     },
@@ -22,16 +22,16 @@
       "address": "789 Oak Street, Austin, TX 78701",
       "phone": "+1 (555) 123-4567",
       "website": "https://www.craftandride.com",
-      "image": "https://example.com/craft_and_ride_logo.png",
+      "image": "https://craftandride.com/cdn/shop/files/craft_and_ride_290x@2x.png?v=1622364624",
       "membership_level": "Premium",
       "other_information": "Craft&Ride offers a wide selection of Onewheel accessories, such as foot pads, handle kits, and protective gear. They also provide customization services for a personalized riding experience."
     },
     {
-      "name": "The Float Shoppe",
+      "name": "The Float World",
       "address": "321 Pine Street, Portland, OR 97201",
       "phone": "+1 (111) 222-3333",
-      "website": "https://www.floatshoppe.com",
-      "image": "https://example.com/float_shoppe_logo.png",
+      "website": "https://onewheelfloat.com/",
+      "image": "https://onewheelfloat.com/cdn/shop/files/20230506_174331_2048x.jpg?v=1683413245",
       "membership_level": "Standard",
       "other_information": "The Float Shoppe is a renowned Onewheel retailer offering a wide range of boards, accessories, and maintenance services. They are committed to providing exceptional customer service."
     },
@@ -40,7 +40,7 @@
       "address": "555 Cedar Road, Seattle, WA 98101",
       "phone": "+1 (999) 888-7777",
       "website": "https://www.flightfins.com",
-      "image": "https://example.com/flightfins_logo.png",
+      "image": "https://i0.wp.com/flightfins.com/wp-content/uploads/2021/04/FF_BadgeLogoWhite.png?fit=1000%2C1000&ssl=1",
       "membership_level": "Premium",
       "other_information": "FlightFins specializes in innovative Onewheel accessories, including flight fins, fangs, and other performance-enhancing add-ons. They are known for their cutting-edge designs."
     },
@@ -49,7 +49,7 @@
       "address": "789 Maple Avenue, Denver, CO 80201",
       "phone": "+1 (444) 555-6666",
       "website": "https://www.onewheelwarehouse.com",
-      "image": "https://example.com/onewheel_warehouse_logo.png",
+      "image": "https://www.warehouse-one.de/out/wh1-2023/img/wh1_logo.png",
       "membership_level": "Standard",
       "other_information": "Onewheel Warehouse is a trusted retailer of Onewheel boards and accessories. They offer a wide selection of products, including replacement parts and safety gear."
     },
@@ -58,7 +58,7 @@
       "address": "999 Beach Boulevard, Miami, FL 33101",
       "phone": "+1 (777) 888-9999",
       "website": "https://www.onewheeladventures.com",
-      "image": "https://example.com/onewheel_adventures_logo.png",
+      "image": "https://static.wixstatic.com/media/eb2759_830bac78fc7741aa93eaa2f1b93770ff~mv2.png/v1/fill/w_160,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled.png",
       "membership_level": "Premium",
       "other_information": "Onewheel Adventures organizes guided tours and group rides for Onewheel enthusiasts. They offer unique experiences to explore scenic locations while enjoying the thrill of riding Onewheel boards."
     }

@@ -60,6 +60,7 @@ const displayCompanies = (companies) => {
     card.appendChild(website);
     card.appendChild(image);
     card.appendChild(membership);
+    card.setAttribute('background-color', '#37505C')
 
     cards.appendChild(card);
   });

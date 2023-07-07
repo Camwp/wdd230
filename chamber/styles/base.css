@@ -279,8 +279,7 @@ input[type="submit"]:hover {
     border-radius: 4px;
     padding: 16px;
     margin-bottom: 16px;
-    background-color: #ced2d4;
-    
+    background-color: #cccccc;
   }
   
   #company-cards h2 {
