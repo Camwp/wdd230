@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Onewheel Companies</title>
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/larger.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cameron Pedro">
+    <meta name="description" content="StokeSociety Chamber of Commerce">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="StokeSociety Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/your-image.jpg">
+    <meta property="og:url" content="https://example.com/your-page-url">
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StokeSociety Chamber of Commerce">
+    <meta name="twitter:image" content="https://example.com/your-image.jpg">
+    <meta name="twitter:url" content="https://example.com/your-page-url">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <title>StokeSociety Chamber of Commerce | Directory</title>
 </head>
 <body>
-    <div class="view-toggle">
+    <header>
+        <!-- Header content here -->
+        <div class="hamburger-menu">
+            <div class="hamburger"></div>
+        </div>
+        <img src="images/favicon-32x32.png" alt="icon">
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+      <div class="view-toggle">
         <label for="view-type">View:</label>
         <select id="view-type">
           <option value="list">List</option>
@@ -15,7 +50,23 @@
       </div>
 
   <div id="company-cards"></div>
-
-  <script src="scripts/members.js"></script>
+    </main>
+    
+    <footer>
+    <div class="contact-info">
+        <p>Contact us: 123 Main Street, City, Country</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+    
+    <div class="development-info">
+        <p>Created by: Cameron Pedro</p>
+        <p>WDD 230 Chamber Project</p>
+        <p id="lastModified">Last modified:</p>
+    </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
