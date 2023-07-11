@@ -72,7 +72,25 @@ body {
     background-color: #113537;
   }
 
-
+  .banner {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+ .close-btn {
+  background-color: transparent;
+  border: none;
+  color: #cb3333;
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
   
   /* Main Content */
   main {
@@ -150,7 +168,20 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
     background-color: #F4F1DE;
-    
+    text-align: center;
+  }
+  .spotlights {
+    align-items: center;
+    justify-content: center;
+  }
+  .spotlight img {
+    padding: 10px; /* Adjust the padding as desired */
+  }
+  .current-events ul li {
+    list-style: none;
+  }
+  .current-events ul {
+    padding: 0;
   }
   
   .weather-card {
@@ -158,7 +189,33 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     background-color: #F4F1DE;
-    
+    text-align: center;
+  }
+
+  .weather-align {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .single-forecast {
+    grid-column-start: 1;
+    grid-column-end: auto;
+    text-align: center;
+  }
+  .three-forecast {
+    grid-column-start: 1;
+    text-align: center;
+  }
+  #forecast-temperatures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+    padding: 0;
+    grid-gap:20px;
+  }
+  #forecast-temperatures li {
+    list-style: none;
+  } 
+  h4 {
+    margin: 0;
   }
 
   /*FORM*/

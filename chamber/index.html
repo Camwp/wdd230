@@ -8,6 +8,8 @@
     <meta name="description" content="StokeSociety Chamber of Commerce">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <!-- Social media meta tags -->
     <meta property="og:title" content="StokeSociety Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -24,6 +26,7 @@
     <title>StokeSociety Chamber of Commerce</title>
 </head>
 <body>
+      
     <header>
         <!-- Header content here -->
         <div class="hamburger-menu">
@@ -39,10 +42,15 @@
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
+        <div id="banner" class="banner">
+            <p>Join us at the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+            <button id="closeBtn" class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+          
     </nav>
     
     <main>
-        
+         
     <section class="hero">
         <img src="images/hero.png" alt="Hero Image">
         <div class="call-to-action">
@@ -70,6 +78,19 @@
     <section class="weather-card">
         <h3>Weather</h3>
         <hr>
+        <div class="weather-align">
+            <div class="single-forecast">
+                <h4>Current Weather</h4>
+                <p id="currentTemperature"></p>
+                <p id="currentWeatherDescription"></p>
+            </div>
+            <div class="three-forecast">
+                <h4>3-Day Forecast</h4>
+                <div class="three-day">
+                    <ul id="forecast-temperatures"></ul>
+                </div>
+            </div>
+        </div>
     </section>
     </div>  
     <section class="spotlights">
@@ -107,5 +128,8 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="spotlight.js"></script>
 </body>
 </html>
