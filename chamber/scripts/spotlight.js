@@ -1,4 +1,4 @@
-fetch('camwp.github.io/wdd230/chamber/members.json')
+fetch('https://camwp.github.io/wdd230/chamber/members.json')
   .then(response => response.json())
   .then(data => {
     const premiumMembers = data.filter(member => member.membership_level === 'Premium');
