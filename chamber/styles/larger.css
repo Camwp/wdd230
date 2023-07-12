@@ -121,4 +121,7 @@
       .current-events ul li {
         list-style:circle;
       }
+      .gridC {
+        margin-left: 0px;
+      }
 }

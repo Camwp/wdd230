@@ -170,13 +170,6 @@ body {
     background-color: #F4F1DE;
     text-align: center;
   }
-  .spotlights {
-    align-items: center;
-    justify-content: center;
-  }
-  .spotlight img {
-    padding: 10px; /* Adjust the padding as desired */
-  }
   .current-events ul li {
     list-style: none;
   }
@@ -283,12 +276,16 @@ input[type="submit"]:hover {
 }
 /*FORM*/
   .spotlights {
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
-    
+  }
+  .spotlight img { 
+    padding: 10px; /* Adjust the padding as desired */
   }
   h3, h4 {
     color: #113537;
@@ -357,7 +354,9 @@ input[type="submit"]:hover {
     height: auto;
     margin-bottom: 8px;
   }
-
+  .gridC {
+    margin-left: -17px;
+  }
   #company-cards.gridC {
     display: grid;
     width: calc(100%);
