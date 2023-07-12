@@ -28,7 +28,9 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
-  
+  header img {
+    height: 30px;
+  }
   /* Navigation */
   .hamburger-menu {
     display: flex;
