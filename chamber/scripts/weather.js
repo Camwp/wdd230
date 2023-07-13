@@ -13,8 +13,8 @@ fetch(currentWeatherUrl)
     const currentWeatherDescription = currentWeatherData.weather[0].description;
 
     // Displaying current weather data
-    document.getElementById("currentTemperature").textContent = currentTemperature + "°F";
-    document.getElementById("currentWeatherDescription").textContent = currentWeatherDescription;
+    document.getElementById("current-temperature").textContent = currentTemperature + "°F";
+    document.getElementById("current-weather-description").textContent = currentWeatherDescription;
   })
   .catch(error => {
     console.log("Error fetching current weather data:", error);

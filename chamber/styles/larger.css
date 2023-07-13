@@ -106,10 +106,10 @@
         grid-column-start: 2;
         text-align: center;
       }
-      #currentTemperature {
+      #current-temperature {
         margin-bottom: 0;
       }
-      #currentWeatherDescription {
+      #current-weather-description {
         margin-top: 0;
       }
       .current-events {
