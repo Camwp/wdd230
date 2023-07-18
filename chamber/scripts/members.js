@@ -21,7 +21,7 @@ getCompanyData(url);
 
 const displayCompanies = (companies) => {
   companies.forEach((company) => {
-    // Create elements to add to the div.cards element
+
     let card = document.createElement('section');
     let name = document.createElement('h2');
     let address = document.createElement('p');
@@ -30,30 +30,23 @@ const displayCompanies = (companies) => {
     let image = document.createElement('img');
     let membership = document.createElement('p');
 
-    // Build the h2 element to display the company name
     name.textContent = company.name;
 
-    // Build the address element
     address.textContent = `Address: ${company.address}`;
 
-    // Build the phone element
     phone.textContent = `Phone: ${company.phone}`;
 
-    // Build the website link element
     website.textContent = "Website";
     website.setAttribute('href', company.website);
 
-    // Build the image element
     image.setAttribute('src', company.image);
     image.setAttribute('alt', `Logo of ${company.name}`);
     image.setAttribute('loading', 'lazy');
     image.setAttribute('width', '200');
     image.setAttribute('height', '200');
 
-    // Build the membership element
     membership.textContent = `Membership Level: ${company.membership_level}`;
 
-    // Append the card section with the created elements
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
