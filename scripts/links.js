@@ -17,7 +17,7 @@ async function getLinks(linksURL) {
 
 getLinks(linksURL);
 
-const weeksList = document.querySelector("#headerThree + ul");
+const weeksList = document.querySelector("#header-three + ul");
 
 function displayLinks(weeks) {
   weeks.forEach((weekData) => {

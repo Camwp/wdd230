@@ -1,5 +1,5 @@
 const toggleButton = document.getElementById('toggleButton');
-const navElement = document.getElementById('navElement');
+const navElement = document.getElementById('nav-element');
 const iconElement = toggleButton.querySelector('i');
 
 toggleButton.addEventListener('click', () => {
